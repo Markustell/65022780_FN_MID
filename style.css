@@ -132,3 +132,76 @@ body {
     outline: none;
     border-bottom: 1px solid rgb(52, 174, 255); 
 }
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 87px;
+    background: #7E4D9F;
+}nav ul {
+    display: flex;
+    list-style: none;
+}nav ul li a {
+    color: var(--fclr);
+    text-decoration: none;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.logo-nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border: 1px solid red;
+    margin-left: 1rem;
+}.logo-nav img {
+    height: 63px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.home-center {
+    padding: 3rem 0;
+    width: 1083px;
+    border: 1px solid red;
+}
+
+.student-info {
+    display: flex;
+    justify-content: space-between;
+    height: 324px;
+    background: #D3D3D3;
+    border-radius: 15px;
+}
+
+.std-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+    border: 1px solid red
+}.std-profile img {
+    height: 180px;
+    width: 180px;
+    border-radius: 10px;
+}.std-profile h2 {
+    margin: 1rem;
+}
+
+.std-text-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 70%;
+}.std-text-info p {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+
