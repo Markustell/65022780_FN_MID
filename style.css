@@ -152,7 +152,6 @@ nav {
     display: flex;
     align-items: center;
     height: 100%;
-    border: 1px solid red;
     margin-left: 1rem;
 }.logo-nav img {
     height: 63px;
@@ -165,9 +164,15 @@ nav {
 }
 
 .home-center {
-    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0;
     width: 1083px;
-    border: 1px solid red;
+}.home-center h1 {
+    font-family: "Kanit-Light";
+    margin: 3rem;
+    font-size: 2.25rem;
 }
 
 .student-info {
@@ -176,6 +181,7 @@ nav {
     height: 324px;
     background: #D3D3D3;
     border-radius: 15px;
+    width: 100%;
 }
 
 .std-profile {
@@ -184,8 +190,7 @@ nav {
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 30%;
-    border: 1px solid red
+    width: 25%;
 }.std-profile img {
     height: 180px;
     width: 180px;
@@ -195,13 +200,41 @@ nav {
 }
 
 .std-text-info {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    width: 70%;
+    width: 75%;
 }.std-text-info p {
     padding-left: 1rem;
     font-size: 1.5rem;
+}
+
+.std-status {
+    position: absolute;
+    padding: 0.5rem 3rem;
+    right: 0;
+    top: 0;
+    background: #fff;
+    border-radius: 20px;
+    transform: translate(-10px, 10px);
+}.std-status span {
+    color: #19AF00;
+}
+
+.home-btns-ctn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}.home-btn {
+    font-size: 2.5rem;
+    height: 8rem;
+    width: 28rem;
+    border: none;
+    border-radius: 10px;
+    background: #FFDBAF;
+}.home-btn:hover {
+    background: #fac687;
 }
 
