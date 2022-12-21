@@ -103,12 +103,10 @@ body {
 }.form .login-google-btn img {
     height: 32px;
     margin-right: 1rem;
-}.form a {
+}.form p {
     padding: 2rem;
     text-decoration: none;
     color: #807E7E;
-}.form a:hover {
-    color: #1F89EB;
 }
 
 .form-header-ctn {
