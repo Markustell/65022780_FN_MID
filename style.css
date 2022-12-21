@@ -72,15 +72,36 @@ body {
     align-items: center;
     height: 100%;
     width: 75%;
-    border: 1px solid red;
-}.form button {
+}.form .login-regular-btn {
     font-size: 1rem;
     width: 80%;
     padding: 0.5rem;
     background: #807E7E;
     border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
     color: #fff;
+}.form .login-regular-btn:hover {
+    background: #6b6969;
+}.form .login-google-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    width: 80%;
+    padding: 0.5rem;
+    background: #fff;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #1F89EB;
+    border: 3px solid #1F89EB;
+}.form .login-google-btn img {
+    height: 32px;
+    margin-right: 1rem;
+}.form a {
+    padding: 2rem;
+    text-decoration: none;
+    color: #807E7E;
 }
 
 .form-header-ctn {
@@ -89,7 +110,6 @@ body {
     align-items: center;
     height: 25%;
     width: 100%;
-    border: 1px solid red;
 }.form-header-ctn h1 {
     font-size: 4rem;
     text-shadow: 2px 2px 3px #999;
@@ -102,7 +122,6 @@ body {
     align-items: center;
     height: 25%;
     width: 100%;
-    border: 1px solid red;
 }.form-info-ctn input {
     font-size: 1rem;
     width: 80%;
@@ -111,5 +130,5 @@ body {
     border-bottom: 1px solid grey;
 }.form-info-ctn input:focus {
     outline: none;
-    border-bottom: 1px solid rgb(153, 153, 153); 
+    border-bottom: 1px solid rgb(52, 174, 255); 
 }
