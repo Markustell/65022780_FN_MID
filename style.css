@@ -238,3 +238,41 @@ nav {
     background: #fac687;
 }
 
+.form-badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}.form-badge h1 {
+    font-size: 2.5rem;
+    margin: 3rem;
+}
+
+.form-ctn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 500px;
+    background: #C4C4C4;
+    border-radius: 10px;
+    padding: 2rem;
+}.form-ctn label {
+    font-size: 2rem;
+}.form-ctn input {
+    border-radius: 5px;
+    height: 3rem;
+    border: none;
+    margin: 1rem;
+}input[name="fname"] {
+    width: 35rem;
+}input[name="lname"] {
+    width: 40rem;
+}input[name="group"], input[name="branch"] {
+    width: 30rem;
+}input[name="address"] {
+    width: 83.5rem;
+}input[name="c-address"] {
+    width: 77.5rem;
+}
